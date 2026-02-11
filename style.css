@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 body {
-    background-image: url(flowers\ backg.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Keeps the background still while scrolling */
