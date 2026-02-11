@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 body {
-    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
+    background-image: url(flowers\ backg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background still while scrolling */
+    background-repeat: no-repeat;
+    
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    color: #880e4f;
 }
+    
 
 .glass-container {
     background: rgba(255, 255, 255, 0.7);
