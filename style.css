@@ -57,3 +57,9 @@ body {
     background: #d81b60;
     transform: translateY(-3px);
 }
+button#new-btn {
+    border: none;       /* Removes the default button border */
+    cursor: pointer;    /* Makes the mouse turn into a hand when hovering */
+    font-family: 'Poppins', sans-serif; /* Keeps your nice font */
+    outline: none;      /* Removes the blue box when clicked */
+}
