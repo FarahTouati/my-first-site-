@@ -1,60 +1,73 @@
  body {
-    /* A soft, calming gradient */
-    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    /* Soft Pink Gradient */
+    background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%);
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Helvetica Neue', sans-serif;
-    color: #2c3e50;
+    font-family: 'Poppins', sans-serif;
+    color: #880e4f; /* Deep pink text */
 }
 
 .glass-container {
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(10px); /* This creates a trendy "frosted glass" look */
-    padding: 3rem;
-    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px); /* The frosted glass effect */
+    padding: 40px;
+    border-radius: 40px;
     text-align: center;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 10px 30px rgba(136, 14, 79, 0.1);
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.main-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes it a circle */
+    object-fit: crop;
+    margin-bottom: 20px;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .affirmation {
-    font-size: 2.5rem;
-    font-style: italic;
+    font-size: 1.8rem;
+    font-weight: 600;
     margin: 20px 0;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .label {
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 0.8rem;
-    opacity: 0.7;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #ad1457;
 }
 
 .divider {
-    height: 2px;
-    width: 50px;
-    background: #2c3e50;
-    margin: 20px auto;
-    opacity: 0.3;
+    height: 3px;
+    width: 40px;
+    background: #f06292;
+    margin: 25px auto;
+    border-radius: 2px;
 }
 
 .btn {
     display: inline-block;
-    margin-top: 30px;
-    padding: 12px 25px;
-    background: #2c3e50;
+    padding: 12px 30px;
+    background: #ec407a;
     color: white;
     text-decoration: none;
     border-radius: 50px;
-    transition: 0.3s;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(236, 64, 122, 0.3);
 }
 
 .btn:hover {
-    background: #4a69bd;
-    transform: translateY(-2px);
+    background: #d81b60;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(216, 27, 96, 0.4);
 }
